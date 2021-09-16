@@ -1,0 +1,244 @@
+@media screen and (max-width:990px){
+    html{
+        font-size:15.2px;
+    }
+    .header_logo{
+        width:60%;
+    }
+    .header_title{
+        font-size:2.5rem;
+    }
+    .daily_staple img{
+        width:100%;
+        height: 35%;
+    }
+    .daily_staple_title{
+        font-size:1.5rem
+    }
+    .starRating{
+        font-size:.9rem;
+    }
+    .resBtn{
+    padding:.5em 1em;
+    font-size:.8rem;
+    }
+    .brands_row{
+        /* align-items: flex-start; */
+        max-width:900px;
+    }
+    .brand_image{
+        width:70%; 
+    }
+    .footer_socialIcons .fab{
+        font-size:1.3rem;
+    }
+    .footer_col{
+        flex-basis:33%;
+    }
+    .col_mobile{
+        flex-basis:30%;
+        text-align: center;
+    }
+}
+@media screen and (max-width:850px){
+    .mobile_btn{
+        margin-right:1em;
+    }
+    .header_title{
+        font-size:2.4rem;
+    }
+    .header_cart_section{
+        width:20%;
+    }
+    /* .d_none{
+        display: none;
+    } */
+    .daily_staple{
+        width:35%;
+    }
+    .daily_staple img{
+        width:100%;
+        height: 45%;
+    }
+    .starRating{
+        font-size:1.1rem;
+    }
+    .resBtn{
+        padding:.6em;
+        display: block;
+        width:40%;
+        font-size:.9rem;
+        text-align: center;
+    }
+    .footer_operation_list a{
+        font-size:.95rem;
+    }
+    .footer_row{
+        justify-content: space-around;
+        flex-wrap:wrap;
+    }
+    .col_mobile{
+        flex-basis:40%;
+        text-align: right;
+    }
+}
+@media screen and (max-width:700px){
+   .header_logo{
+       width:70%;
+   }
+   .header_cart_section{
+       width:25%;
+   }
+   .header_cart_section .fa-bars{
+      display:block;
+   }
+   .header_list{
+      /* display:none; */
+      position:absolute;
+      top:0;
+      left:0;
+      width:0%;
+      background-color:rgb(4, 57, 82);
+      transition:0.5s all ease-in;
+      z-index:100;
+   }
+   .header_list_items{
+    flex-direction: column;
+    align-items: flex-start;
+   }
+   .header_list_items li{
+       margin:1em 0;
+   }
+   .d_none{
+       display: none;
+   }
+   .col-3{
+    width:30%;
+   }
+   .daily_staple{
+    width:40%;
+}
+   .daily_staple img{
+    width:100%;
+    height: 45%;
+   }
+   .big_row{
+    max-width:900px;
+  }
+  .footer_socialIcons .fab{
+    margin-right:0;
+    margin-left:1em;
+}
+  .col-3 .sales_image{
+    width:80%;
+    object-fit: contain;
+}
+.footer_mobile_col{
+    flex-basis:50%;
+    margin-bottom: 1em;;
+    /* background-color: aqua; */
+}
+
+
+}
+@media screen and (max-width:500px){
+    html{
+        font-size:14px;
+    }
+    .header{
+        padding:.5em 0;
+    }
+    .header_logo_container{
+        width:15%;
+    }
+    .header_logo{
+        width:100%;
+    }
+    .header_search_box{
+        width:45%;
+    }
+    .header_cart_section{
+        width:30%;
+        /* background-color: aqua; */
+    }
+    .header_cart_section .fas{
+        color:var(--white);
+        font-size:1.1rem;
+    }
+    .mobile_login_button{
+        padding:.6em 1em;
+        font-size:.8rem;
+    }
+    .header_title{
+        font-size:2.2rem;
+    }
+    .header_paragraph{
+        font-size:.8rem;
+    }
+    .big_row{
+        max-width:800px;
+    }
+    .col-3{
+        width:40%;
+    }
+    .daily_staple{
+        width:80%;
+    }
+    .footer_mobile_col{
+        flex-basis:80%;
+        margin-bottom: 1em;;
+        /* background-color: aqua; */
+    }
+    .col_mobile{
+        flex-basis:80%;
+        text-align: center;
+        margin-bottom:1.5em;
+    }
+    .brands_row{
+        flex-direction:column;
+        align-items: center;
+    }
+   .col-2{
+        width:50%;
+        margin-bottom:.5em;
+    }
+    .brand_image{
+        width:95%;
+        display: block;
+        margin:0 auto;
+    }
+     .prev,.next{
+        top:30%;
+    }
+    .slider {
+        height: 150px;
+    }
+    .slider-wrapper {
+        height: 80%;
+    }
+}
+@media screen and (max-width:300px){
+    .mobile_login_button{
+        display: none;
+    }
+    .daily_staple{
+        width:85%;
+    }
+    .daily_staple img{
+        height:35%;
+    }
+    .footer_mobile_col{
+        flex-basis:100%;
+        margin-bottom: 1em;;
+        /* background-color: aqua; */
+    }
+    .prev,.next{
+        font-size:2rem;
+    }
+    .slider {
+        height: 120px;
+    }
+    .slider-wrapper {
+        height: 70%;
+    }
+}

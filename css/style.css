@@ -1,0 +1,334 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    color:var(--mainColor);
+    overflow-x: hidden;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --mainColor: #281C2D;
+    --paraColor:#BEAFC2;
+    --color1:rgb(245, 174, 43);
+    --color:#e29349;
+    --white:#fff;
+    --gray:#666464;
+    --black:#000;
+}
+
+/*  ❗ Our section container */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: rgb(4, 49, 70);
+    padding:.1em 0;
+}
+.header_logo_container{
+    width:20%;
+    margin-left: 1rem;
+}
+.header_logo{
+    width:50%;
+}
+.header_search_box{
+    width:50%;
+    border:1px solid var(--color1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_search_text{
+    flex:1;
+    border:none;
+    outline:none;
+    padding:.4em;
+}
+.header_search_box .fa-search{
+    color:var(--white);
+    margin: 0 1em;
+}
+.header_cart_section{
+    width:15%;
+    /* margin-right:1em; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header_cart_section .fas{
+    color:var(--white);
+    font-size:1.3rem;
+}
+.header_cart_section .fa-bars{
+    display:none;
+    margin-right:.5rem;
+    font-size:1.3rem;
+}
+.header_cart_section .fa-times{
+    margin-right:.5rem;
+    font-size:1.3rem;
+}
+.button{
+    display:inline-block;
+    padding:.4rem 1.8rem;
+    border-radius:2rem;
+    background-color: var(--color1);
+    color:var(--white);
+    font-size:.9rem;
+}
+/* 2nd section in container */
+.header_list{
+    width:100%;
+}
+.header_list_items{
+    background-color:rgb(4, 57, 82);
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:0 1.5em;
+}
+.header_list_items a{
+    color:var(--white);
+}
+/* 3rd section in container */
+.header_banner_content{
+    width:100%;
+    margin:0 auto;
+    background-image: linear-gradient(to bottom,rgb(4, 49, 70),rgba(255,255,255,0.8));
+}
+.header_text_content{
+    text-align: center;
+}
+.header_title{
+    font-size:2.8rem;
+}
+.header_paragraph{
+    margin:.5rem 1em 1rem;
+    color:var(--gray);
+    font-weight: 400;
+    font-size:.9rem;
+}
+.header_subtitle{
+   margin-bottom:1rem;
+   font-weight: 500;
+}
+
+/*  ❗ Our Products Section */
+
+.heading{
+    margin:1.5rem 0 0;
+    font-size:2.2rem;
+    text-align: center;
+}
+.big_row{
+    max-width:990px;
+    margin:auto;
+}
+.row{
+    margin:1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.col-3{
+    width:20%;
+}
+.col-3 .product_image{
+    width:100%;
+    object-fit: contain;
+}
+
+/*  Our Daily Staples Section */
+.daily_staple{
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.1)  ;
+    margin:1.5rem;
+    padding:.5rem;
+    transition: transform .5s;
+}
+.daily_staple:hover{
+    transform: scale(1.05);
+}
+.daily_staple img{
+    width:100%;
+    height: 45%;
+}
+.daily_staple_title{
+    text-align: center;
+}
+.daily_staple_text{
+    font-size:.9rem
+}
+.starRating{
+    margin:1em 0 .5em;
+}
+.starRating .fas,.starRating .far{
+    color:var(--color1);
+}
+.daily_staple_price,.daily_staple_actual_price{
+    font-weight:500;
+    font-size:.9rem;
+    text-decoration: line-through;
+    display:inline-block;
+    margin-bottom:.5em;
+}
+.daily_staple_actual_price{
+    text-decoration: none;
+    margin-left:1rem;
+}
+
+/* Offers and Sales  */
+.sales_image{
+    width:100%;
+}
+
+/* Our Brands section */
+.brands_section{
+    width:100%;
+    background-image: linear-gradient(to top,rgb(255, 207, 130),rgba(255,255,255,0.8));
+}
+.brands_section h2{
+    margin-bottom:1em;
+}
+.brands_row{
+    /* align-items: flex-start; */
+    align-items: center;
+    max-width:990px;
+    margin:0 auto;
+}
+.col-2{
+    width:30%;
+}
+.brand_image{
+    width:95%; 
+}
+
+/* Footer Section Container */
+.footer_container{
+    background-color:rgb(4, 49, 70);
+    width:100%;
+    padding:1em 0;
+}
+.footer_row{
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.footer_col{
+    flex-basis:25%;
+}
+.footer_operation_title{
+    margin-bottom:.7em;
+    color:var(--color1);
+    text-align: center;
+}
+.footer_opearation_container{
+    display: flex;
+    /* background-color: #BEAFC2; */
+    justify-content: space-between;
+}
+.footer_operation_list li{
+    margin-bottom: .5em;
+}
+.footer_operation_list a{
+    color:var(--white);
+}
+.footer_operation_list .fa-map-marker-alt,.footer_operation_list .fa-envelope,.footer_operation_list .fa-phone-alt,.footer_operation_list .fa-chevron-right{
+    color:var(--color);
+    margin-right:.5em;
+}
+.footer_operation_list a:hover{
+    color:var(--color);
+}
+.footer_operation_list a:hover .fa-map-marker-alt,.footer_operation_list a:hover .fa-envelope,.footer_operation_list a:hover .fa-phone-alt,.footer_operation_list a:hover .fa-chevron-right
+{
+    color:var(--white);
+}
+.footer_follow{
+    color:var(--white);
+    font-size:1.1rem;
+    margin-bottom: 1rem;
+}
+.footer_socialIcons{
+    margin:0 0 1rem;
+}
+.footer_socialIcons .fab{
+    color:var(--color);
+    font-size:1.5rem;
+    margin-right:1em;
+    transition:transform .6s;
+}
+.footer_socialIcons .fab:hover{
+    transform: translateY(5px) scale(1.1);
+    color:var(--white);
+}
+
+.footer_textContent p{
+    color:var(--white);
+    text-align: center;
+}
+.footer_download{
+    color:var(--color1);
+}
+hr{
+    width:60%;
+    margin:0 auto;
+    background-color: var(--color1);
+    height:2px;
+}
+.footer_middle_payment{
+    text-align: center;
+}
+.payment_container{
+    width:40%;
+    margin:auto;
+}
+.payment_title{
+    color:var(--white);
+    margin:.5em 0;
+}
+.payment_card img{
+    width: 50%;;
+}
+.footer_bottom_section{
+    text-align: center;
+}
+.footer_bottom_section p{
+    color:var(--white);
+   margin:1em 0;
+}
+
+
+/* 4 ImageSlider */
+/* 😄 second Sample Carousel */
+.slider {
+	width: 100%;
+	/* overflow: hidden; */
+	position: relative;
+	height: 400px;
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	/* height: 100%; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0;
+  object-fit: cover;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}

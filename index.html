@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India1 Cart: The Online Grocery Shopping</title>
+
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="favicon.webp" type="image/x-icon">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- customise css link -->
+    <link rel="stylesheet" href="./css/style.css">
+
+      <!-- responsive css link -->
+      <link rel="stylesheet" href="./css/responsive.css">
+
+            <!-- jquery cdn link -->
+        <script src="jquery-3.6.0.min.js"></script>
+</head>
+<body>
+     <!-- ❗ header Container -->
+     <div class="container">
+         <!-- 1st section in container -->
+        <header class="header">
+            <!-- first child -->
+            <div class="header_logo_container">
+                <img src="Webp Images/logo (1).webp" alt="" class="header_logo">
+            </div>
+            <!-- Second Child -->
+            <div class="header_search_box">
+                <input type="text" class="header_search_text" placeholder="Search items"></a><i class="fas fa-search"></i>
+            </div>
+            <!-- Third Child -->
+            <div class="header_cart_section">
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-bars" id="menuBars"></i>
+                <a href="#" class="button mobile_login_button">Login</a>
+            </div>
+        </header>
+
+          <!-- 2nd section in container -->
+          <div class="header_menuItems">
+            <nav id="header_list" class="header_list">
+                <ul class="header_list_items">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">About us</a></li>
+                    <li><a href="#sales">Grocery</a></li>
+                    <li><a href="#aboutus">Food</a></li>
+                    <li><a href="#aboutus">Fish</a></li>
+                    <li><a href="#aboutus">Smart Planet @ Bharat</a></li>
+                    <li><a href="#aboutus">Khet Fresh Mart</a></li>
+                    <li><a href="#aboutus">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+          <!-- 3rd section in container -->
+        <div class="header_banner_content">
+            <!--  second Sample Carousel -->
+          <div class="slider" id="main-slider"><!-- outermost container element -->
+               <div class="slider-wrapper"><!-- innermost wrapper element -->
+                    <img class="slide" src="./Webp Images/restuarantbanner.webp" alt="">
+                    <img class="slide" src="./Webp Images/combobanner.webp" alt="">
+                    <img class="slide" src="./Webp Images/Fish Banner (1).webp" alt="">
+                    <img class="slide" src="./Webp Images/productsbanner (1).webp" alt="">
+                    <img class="slide" src="./Webp Images/smartplanet banner.webp" alt="">
+                </div>
+            </div>
+            <div class="header_text_content">
+                <h1 class="header_title">We serve Best</h1>
+                <p class="header_paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, dolores. Illo placeat laborum,
+                    rerum modi magnam eligendi quia blanditiis consequatur? Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Quae tempora aut illum at recusandae veniam id magni corrupti praesentium
+                    excepturi.</p>
+                <h3 class="header_subtitle">Big Dhamaka Sale and Offers</h3>
+                <div class="header_button_container">
+                    <a href="#" class="button mobile_btn">Explore more</a>
+                    <a href="#" class="button mobile_btn">Know more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ❗ Our Products Section -->
+    <div class="products_container">
+        <h1 class="title heading">Our Products</h1>
+        <div class="big_row">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./Webp Images/personalCare (1).webp" alt="" class="product_image">
+                </div>
+                <div class="col-3">
+                    <img src="./Webp Images/khet-fresh-mart (1).webp" alt="" class="product_image">
+                </div>
+                <div class="col-3">
+                    <img src="./Webp Images/grocery (1).webp" alt="" class="product_image">
+                </div>
+                <div class="col-3 d_none">
+                    <img src="./Webp Images/Detergents (1).webp" alt="" class="product_image">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <img src="./Webp Images/Detergents (1).webp" alt="" class="product_image">
+                </div>
+                <div class="col-3">
+                    <img src="./Webp Images/grocery (1).webp" alt="" class="product_image">
+                </div>
+                <div class="col-3">
+                    <img src="./Webp Images/khet-fresh-mart (1).webp" alt="" class="product_image">
+                </div>
+                <div class="col-3 d_none">
+                    <img src="./Webp Images/personalCare (1).webp" alt="" class="product_image">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <img src="./Webp Images/personalCare (1).webp" alt="" class="product_image">
+                </div>
+                <div class="col-3">
+                    <img src="./Webp Images/khet-fresh-mart (1).webp" alt="" class="product_image">
+                </div>
+                <div class="col-3">
+                    <img src="./Webp Images/grocery (1).webp" alt="" class="product_image">
+                </div>
+                <div class="col-3 d_none">
+                    <img src="./Webp Images/Detergents (1).webp" alt="" class="product_image">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ❗ Our Daily Staples Section -->
+    <div class="daily_staples_container">
+        <h1 class="title heading">Daily Staples</h1>
+        <!-- first row -->
+        <div class="row">
+            <div class="col-3 daily_staple">
+                <img src="./Webp Images/daal.webp" alt="">
+                <h2 class="daily_staple_title">Daal</h2>
+                <p class="daily_staple_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nisi!</p>
+                <div class="starRating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="daily_staple_price">&#8377;2000.00</span>
+                <span class="daily_staple_actual_price">&#8377;1500.00</span>
+                <a href="#" class="button resBtn">Buy now</a>
+            </div>
+            <div class="col-3 daily_staple">
+                <img src="./Webp Images/oil (1).webp" alt="">
+                <h2 class="daily_staple_title">Oil</h2>
+                <p class="daily_staple_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nisi!</p>
+                <div class="starRating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="daily_staple_price">&#8377;4000.00</span>
+                <span class="daily_staple_actual_price">&#8377;3500.00</span>
+                <a href="#" class="button resBtn">Buy now</a>
+            </div>
+            <div class="col-3 daily_staple">
+                <img src="./Webp Images/masala (1).webp" alt="">
+                <h2 class="daily_staple_title">Masala</h2>
+                <p class="daily_staple_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nisi!</p>
+                <div class="starRating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="daily_staple_price">&#8377;1000.00</span>
+                <span class="daily_staple_actual_price">&#8377;500.00</span>
+                <a href="#" class="button resBtn">Buy now</a>
+            </div>
+            <div class="col-3 daily_staple d_none">
+                <img src="./Webp Images/sugar.webp" alt="">
+                <h2 class="daily_staple_title">Sugar</h2>
+                <p class="daily_staple_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nisi!</p>
+                <div class="starRating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="daily_staple_price">&#8377;1500.00</span>
+                <span class="daily_staple_actual_price">&#8377;1000.00</span>
+                <a href="#" class="button resBtn">Buy now</a>
+            </div>
+
+        <!-- second row -->
+            <div class="col-3 daily_staple">
+                <img src="./Webp Images/sugar.webp" alt="">
+                <h2 class="daily_staple_title">Sugar</h2>
+                <p class="daily_staple_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nisi!</p>
+                <div class="starRating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="daily_staple_price">&#8377;2000.00</span>
+                <span class="daily_staple_actual_price">&#8377;1500.00</span>
+                <a href="#" class="button resBtn">Buy now</a>
+            </div>
+            <div class="col-3 daily_staple">
+                <img src="./Webp Images/masala (1).webp" alt="">
+                <h2 class="daily_staple_title">Masala</h2>
+                <p class="daily_staple_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nisi!</p>
+                <div class="starRating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="daily_staple_price">&#8377;4000.00</span>
+                <span class="daily_staple_actual_price">&#8377;3500.00</span>
+                <a href="#" class="button resBtn">Buy now</a>
+            </div>
+            <div class="col-3 daily_staple">
+                <img src="./Webp Images/oil (1).webp" alt="">
+                <h2 class="daily_staple_title">Oil</h2>
+                <p class="daily_staple_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nisi!</p>
+                <div class="starRating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="daily_staple_price">&#8377;1000.00</span>
+                <span class="daily_staple_actual_price">&#8377;500.00</span>
+                <a href="#" class="button resBtn">Buy now</a>
+            </div>
+            <div class="col-3 daily_staple d_none">
+                <img src="./Webp Images/daal.webp" alt="">
+                <h2 class="daily_staple_title">Daal</h2>
+                <p class="daily_staple_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nisi!</p>
+                <div class="starRating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="daily_staple_price">&#8377;1500.00</span>
+                <span class="daily_staple_actual_price">&#8377;1000.00</span>
+                <a href="#" class="button resBtn">Buy now</a>
+            </div>
+</div>
+    </div>
+
+    <!-- ❗ Offers and Sales -->
+    <div class="offer_and_sales_section">
+        <h1 class="title heading">Offers and Sales</h1>
+        <div class="big_row">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./Webp Images/img10 (1).webp" alt="" class="sales_image">
+                </div>
+                <div class="col-3">
+                    <img src="./Webp Images/img15 (1).webp" alt="" class="sales_image">
+                </div>
+                <div class="col-3">
+                    <img src="./Webp Images/img16 (1).webp" alt="" class="sales_image">
+                </div>
+            </div>
+        </div>
+
+        <!-- ❗ Our Brands section -->
+        <div class="brands_section">
+            <h2 class="title heading">Our Divisions</h2>
+            <div class="row brands_row">
+                <div class="col-2">
+                    <img src="./Webp Images/partner1 (1).webp" alt="" class="brand_image">
+                </div>
+                <div class="col-2">
+                    <img src="./Webp Images/partner2 (1).webp" alt="" class="brand_image">
+                </div>
+                <div class="col-2">
+                    <img src="./Webp Images/partner3 (1).webp" alt="" class="brand_image">
+                </div>
+            </div>
+        </div>
+
+<!-- ❗ Footer Section Container -->
+    <div class="footer_container">
+   <div class="footer_top_section">
+    <div class="row row2 footer_row">
+        <div class="col-3 footer_col footer_mobile_col">
+            <div class="footer_operation_area">
+                <h2 class="footer_operation_title">Operation Areas</h2>
+                <div class="footer_opearation_container">
+                <ul class="footer_operation_list">
+                    <li><a href=""><i class="fas fa-map-marker-alt"></i>Karnataka</a></li>
+                    <li><a href=""><i class="fas fa-map-marker-alt"></i>Tamil Nadu</a></li>
+                    <li><a href=""><i class="fas fa-map-marker-alt"></i>West Bengal</a></li>
+                    <li><a href=""><i class="fas fa-map-marker-alt"></i>Goa</a></li>
+                    <li><a href=""><i class="fas fa-map-marker-alt"></i>Gujarat</a></li>
+                    </ul>
+
+                    <ul class="footer_operation_list">
+                    <li><a href=""><i class="fas fa-map-marker-alt"></i>Kerala</a></li>
+                    <li><a href=""><i class="fas fa-map-marker-alt"></i>Telangana</a></li>
+                    <li><a href=""><i class="fas fa-map-marker-alt"></i>Andhra Pradesh</a></li>
+                    <li><a href=""><i class="fas fa-map-marker-alt"></i>Jharkand </a></li>
+                    <li><a href=""><i class="fas fa-map-marker-alt"></i>Orissa </a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="col-3 col_mobile">
+            <p class="footer_follow">Follow us on</p>
+            <div class="footer_socialIcons">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-google"></i>
+            </div>
+            <p class="footer_follow footer_support">Support</p>
+            <ul class="footer_operation_list">
+                <li><a href="mailto: support@india1cart.co.in"><i class="far fa-envelope"></i>support@india1cart.co.in</a></li>
+                <li><a href="tel:+1800-833-1131"><i class="fas fa-phone-alt"></i>1800-833-1131 </a></li>
+                </ul>
+        </div>
+        <div class="col-3 footer_col footer_mobile_col">
+            <div class="footer_operation_area">
+                <h2 class="footer_operation_title">Quick Links</h2>
+                <div class="footer_opearation_container">
+                <ul class="footer_operation_list">
+                    <li><a href=""><i class="fas fa-chevron-right"></i>Home</a></li>
+                    <li><a href=""><i class="fas fa-chevron-right"></i>About</a></li>
+                    <li><a href=""><i class="fas fa-chevron-right"></i>Grocery</a></li>
+                    <li><a href=""><i class="fas fa-chevron-right"></i>Privacy Policy</a></li>
+                    </ul>
+                    <ul class="footer_operation_list">
+                    <li><a href=""><i class="fas fa-chevron-right"></i>Terms and Conditions</a></li>
+                    <li><a href=""><i class="fas fa-chevron-right"></i>Returns &Refund Policy</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr class="line">
+
+<!-- third child -->
+<!-- <div class="footer_middle_payment">
+    <div class="payment_container">
+        <p class="payment_title">Different cards for payment</p>
+        <div class="row row2">
+            <div class="col-3 payment_card">
+                <img src="images/card1.png" alt="">
+            </div>
+            <div class="col-3 payment_card">
+                <img src="images/card2.png" alt="">
+            </div>
+            <div class="col-3 payment_card">
+                <img src="images/card1.png" alt="">
+            </div>
+            <div class="col-3 payment_card d_none">
+                <img src="images/card2.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<hr> -->
+<!-- fourth child -->
+<div class="footer_bottom_section">
+    <p>Copyright 2021 . All rights reserved </p>
+</div>
+    </div>
+
+
+<!-- javascript file -->
+<script src="script.js"></script>
+</body>
+</html>
